@@ -99,10 +99,10 @@ class DCLogin extends React.Component {
                 if(!!user) {
                     window.open(Home,"_self", true);
                     //window.open("/#/demo","_self", true);
-                    window.open("/#/demo2","_blank");
-                    window.open("/#/demo3","_blank");
-                    window.open("/#/demo4","_blank");
-                    window.open("/#/demo5","_blank");
+                    window.open("#/demo2","_blank");
+                    window.open("#/demo3","_blank");
+                    window.open("#/demo4","_blank");
+                    window.open("#/demo5","_blank");
                     console.log(JSON.stringify(user));
                 }
                 else
