@@ -1,0 +1,12 @@
+.loadingMask {
+    position: fixed !important;
+    left: 49%;
+    z-index: 10;
+    top: 49%;
+}
+
+@media only screen and (max-width: 768px) {
+    .loadingMask {
+        left: 44%;
+    }
+}

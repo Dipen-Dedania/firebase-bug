@@ -1,0 +1,74 @@
+/*to make transparent background in Unreal*/
+html {
+
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: rgba(255,255,255,0.75);
+}
+
+/*testing purpose*/
+.test-height {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  visibility: hidden;
+}
+
+.test-height span {
+  background: rgba(0, 0, 0, 0.88);
+  color: #FFF;
+  font-weight: 700;
+  padding: 5px;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.my-button {
+  background: rgba(255,255,255,0.25);
+}
+
+div, label, input {
+  font-family: "Segoe UI", sans-serif !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.row {
+  margin-right: 0px;
+}
+
+.padding-container{
+    padding: 8px;
+}
+
+a, a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.copyRights
+{
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.copyRights1
+{
+    text-align: right;
+}
+
+@media only screen and (max-height: 716px) {
+    .copyRights {
+        display: none;
+    }
+}
